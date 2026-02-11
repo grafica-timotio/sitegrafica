@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 20% 98%;
+    --foreground: 220 25% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 12%;
+
+    --primary: 220 25% 12%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 195 15% 93%;
+    --secondary-foreground: 220 25% 12%;
+
+    --muted: 195 12% 95%;
+    --muted-foreground: 220 10% 45%;
+
+    --accent: 195 100% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 195 15% 88%;
+    --input: 195 15% 88%;
+    --ring: 195 100% 45%;
+
+    /* CMYK brand colors */
+    --cyan: 195 100% 45%;
+    --magenta: 330 100% 45%;
+    --yellow: 50 100% 55%;
+    --brand-black: 220 25% 12%;
+
+    --radius: 0.625rem;
+
+    --sidebar-background: 220 25% 12%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 195 100% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 20% 20%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 220 20% 22%;
+    --sidebar-ring: 195 100% 45%;
+
+    --gradient-hero: linear-gradient(135deg, hsl(220 25% 12%), hsl(220 20% 20%));
+    --gradient-accent: linear-gradient(135deg, hsl(195 100% 45%), hsl(195 100% 55%));
+    --gradient-cmyk: linear-gradient(135deg, hsl(195 100% 45%), hsl(330 100% 45%), hsl(50 100% 55%));
+    --gradient-overlay: linear-gradient(180deg, hsla(220 25% 12% / 0.88), hsla(220 25% 12% / 0.55));
+    --shadow-card: 0 4px 24px -4px hsla(220 25% 12% / 0.08);
+    --shadow-card-hover: 0 12px 32px -8px hsla(220 25% 12% / 0.15);
+    --shadow-button: 0 4px 12px -2px hsla(195 100% 45% / 0.4);
+
+    --font-heading: 'Plus Jakarta Sans', sans-serif;
+    --font-body: 'Inter', sans-serif;
+  }
+
+  .dark {
+    --background: 220 25% 6%;
+    --foreground: 195 15% 95%;
+    --card: 220 22% 10%;
+    --card-foreground: 195 15% 95%;
+    --popover: 220 22% 10%;
+    --popover-foreground: 195 15% 95%;
+    --primary: 195 100% 45%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 20% 16%;
+    --secondary-foreground: 195 15% 95%;
+    --muted: 220 20% 16%;
+    --muted-foreground: 195 12% 55%;
+    --accent: 195 100% 45%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 220 20% 18%;
+    --input: 220 20% 18%;
+    --ring: 195 100% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-accent);
+  }
+  .text-gradient-cmyk {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-cmyk);
+  }
+  .bg-hero {
+    background: var(--gradient-hero);
+  }
+  .bg-accent-gradient {
+    background: var(--gradient-accent);
+  }
+  .bg-cmyk-gradient {
+    background: var(--gradient-cmyk);
+  }
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+  .shadow-card-hover {
+    box-shadow: var(--shadow-card-hover);
+  }
+  .shadow-button {
+    box-shadow: var(--shadow-button);
+  }
+}
