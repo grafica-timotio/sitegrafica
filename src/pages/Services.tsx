@@ -17,8 +17,21 @@ const categories = [
   },
   {
     icon: Image,
-    title: "Lona e Banners",
+    title: "Brindes promocionais e corporativos",
     color: "magenta",
+    items: [
+      { name: "Canecas", desc: "Canecas personalizadas com impressão de alta qualidade, ideais para brindes corporativos e datas comemorativas." },
+      { name: "Squeeze", desc: "Squeeze personalizados resistentes e práticos, perfeitos para eventos, academias e ações promocionais." },
+      { name: "Bottons", desc: "Bottons personalizados com excelente acabamento, ideais para campanhas, eventos e divulgação de marca." },
+      { name: "Caneta", desc: "Canetas personalizadas para fortalecer sua marca no dia a dia de clientes e colaboradores." },
+      { name: "Agenda", desc: "Agendas personalizadas com acabamento profissional, ideais para brindes empresariais e organização corporativa." },
+      { name: "Copos", desc: "Copos personalizados para festas, eventos e ações promocionais, com impressão durável e cores vibrantes." },
+    ],
+  },
+  {
+    icon: Image,
+    title: "Lona e Banners",
+    color: "yellow",
     items: [
       { name: "Banners", desc: "Impressão em lona com acabamento em bastão ou ilhós. Diversos tamanhos." },
       { name: "Faixas", desc: "Lona resistente para eventos, inaugurações e promoções." },
@@ -29,12 +42,12 @@ const categories = [
   {
     icon: Sticker,
     title: "Adesivos e Vinil",
-    color: "yellow",
+    color: "cyan",
     items: [
       { name: "Etiquetas Adesivas", desc: "Para produtos, embalagens e identificação. Diversos formatos." },
       { name: "Recorte em Vinil", desc: "Letras, logos e formas recortadas em vinil adesivo de alta durabilidade." },
       { name: "Adesivos Personalizados", desc: "Qualquer formato, transparente, fosco ou brilho." },
-      { name: "Envelopamento", desc: "Vinil para veículos, vitrines e superfícies diversas." },
+      { name: "Placas em PS (Poliestireno)", desc: "Placas em PS para identicação e sinalização. Diversos formatos." },
     ],
   },
 ];

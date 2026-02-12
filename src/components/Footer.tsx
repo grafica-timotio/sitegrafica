@@ -12,7 +12,7 @@ const Footer = () => {
               <img src={logoPreta} alt="Gráfica Timótio" className="h-10 w-auto object-contain brightness-0 invert" />
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
-              Qualidade, agilidade e preço justo em impressão de papel, lona e adesivos. Sua gráfica de confiança.
+              Qualidade, agilidade e preço justo em impressão de papel, lona, adesivos e brindes. Sua gráfica de confiança.
             </p>
           </div>
 
@@ -40,7 +40,7 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold text-base mb-4">Serviços</h4>
             <nav className="flex flex-col gap-2">
-              {["Cartões de Visita", "Banners e Faixas", "Adesivos e Vinil", "Flyers e Folders", "Convites"].map(
+              {["Cartões de Visita", "Banners e Faixas", "Adesivos e Vinil", "Flyers e Folders", "Brindes", "Personalizados", "Convites"].map(
                 (item) =>
                 <span key={item} className="text-primary-foreground/70 text-sm">
                     {item}
@@ -68,7 +68,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2 text-sm text-primary-foreground/70">
                 <Clock className="w-4 h-4 text-accent shrink-0" />
-                <span>Seg - Sex: 8h às 18h</span>
+                <span>Segunda - Sexta: 8h às 17h</span>
               </div>
               <div className="flex items-center gap-3 mt-2">
                 <a href="https://www.instagram.com/graficatimotio/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-colors">

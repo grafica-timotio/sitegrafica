@@ -13,14 +13,14 @@ type Product = {
 };
 
 const products: Product[] = [
-  { id: 1, name: "100 Cartões de Visita", category: "Papel", price: 49.90, description: "Papel couchê 300g, 4x4 cores, laminação fosca.", specs: "9x5cm" },
+  { id: 1, name: "100 Cartões de Visita", category: "Papel", price: 89.90, description: "Papel couchê 300g, 4x4 cores, laminação fosca.", specs: "9x5cm" },
   { id: 2, name: "1000 Flyers A5", category: "Papel", price: 129.90, description: "Papel couchê 150g, 4x0 cores, impressão frente.", specs: "15x21cm" },
   { id: 3, name: "500 Folders 2 Dobras", category: "Papel", price: 199.90, description: "Papel couchê 170g, 4x4 cores, 2 dobras paralelas.", specs: "A4 aberto" },
-  { id: 4, name: "Banner 60x90cm", category: "Lona", price: 39.90, description: "Lona 440g, impressão digital, com bastão e corda.", specs: "60x90cm" },
-  { id: 5, name: "Faixa 3m x 0,7m", category: "Lona", price: 89.90, description: "Lona resistente, acabamento com ilhós.", specs: "300x70cm" },
+  { id: 4, name: "Banner 60x90cm", category: "Lona", price: 34.90, description: "Lona 440g, impressão digital, com bastão e corda.", specs: "60x90cm" },
+  { id: 5, name: "Faixa 3m x 0,7m", category: "Lona", price: 125.79, description: "Lona resistente, acabamento com ilhós.", specs: "300x70cm" },
   { id: 6, name: "100 Adesivos Redondos", category: "Adesivos", price: 29.90, description: "Vinil adesivo brilho, recorte redondo.", specs: "5cm diâmetro" },
-  { id: 7, name: "Recorte Vinil (m²)", category: "Adesivos", price: 79.90, description: "Vinil adesivo colorido, recorte eletrônico.", specs: "Por m²" },
-  { id: 8, name: "Banner 1,2m x 0,7m", category: "Lona", price: 59.90, description: "Lona 440g com impressão em alta resolução.", specs: "120x70cm" },
+  { id: 7, name: "Recorte Vinil (m²)", category: "Adesivos", price: 49.90, description: "Vinil adesivo colorido, recorte eletrônico.", specs: "Por m²" },
+  { id: 8, name: "Banner 1m x 1m", category: "Lona", price: 59.90, description: "Lona 380g com impressão em alta resolução.", specs: "100x100cm" },
   { id: 9, name: "Projeto Personalizado", category: "Personalizado", price: null, description: "Medidas, materiais e arte sob medida para seu projeto.", specs: "Sob consulta" },
 ];
 

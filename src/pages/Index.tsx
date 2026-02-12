@@ -10,14 +10,21 @@ const services = [
     title: "Impressão em Papel",
     desc: "Cartões de visita, flyers, folders, convites e muito mais com acabamento impecável.",
     link: "/servicos",
-    color: "cyan",
+    color: "yellow",
+  },
+  {
+    icon: Image,
+    title: "Brindes promocionais e corporativos",
+    desc: "Brindes personalizados que transformam sua marca em lembrança constante, como canecas, squeeze, bottons, agendas e muito mais.",
+    link: "/servicos",
+    color: "yellow",
   },
   {
     icon: Image,
     title: "Lona e Banners",
     desc: "Banners, faixas e outdoors em alta resolução para máximo impacto visual.",
     link: "/servicos",
-    color: "magenta",
+    color: "yellow",
   },
   {
     icon: Sticker,
@@ -63,8 +70,8 @@ const differentials = [
 
 const testimonials = [
   { name: "Ana Clara", role: "Empresária", text: "Qualidade excepcional! Meus cartões de visita ficaram perfeitos. Recomendo a todos.", rating: 5 },
-  { name: "Carlos Silva", role: "Restaurante Sabor & Arte", text: "Banners lindos e entrega no prazo. A melhor gráfica da região, sem dúvida.", rating: 5 },
-  { name: "Maria Fernanda", role: "Loja Bella Moda", text: "Adesivos de vinil de altíssima qualidade. Atendimento nota 10!", rating: 5 },
+  { name: "Carlos Silva", role: "Empresário", text: "Banners lindos e entrega no prazo. A melhor gráfica da região, sem dúvida.", rating: 5 },
+  { name: "Maria Fernanda", role: "Empresária", text: "Adesivos de vinil de altíssima qualidade. Atendimento nota 10!", rating: 5 },
 ];
 
 const fadeUp = {
@@ -102,7 +109,7 @@ const Index = () => {
               seu negócio
             </h1>
             <p className="text-primary-foreground/80 text-lg md:text-xl leading-relaxed mb-8 max-w-xl">
-              Papel, lona e adesivos com qualidade profissional, preço justo e entrega rápida. Transforme suas ideias em impressões impactantes.
+              Papel, lona, adesivos e brindes em geral com qualidade profissional, preço justo e entrega rápida. Transforme suas ideias em impressões impactantes.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

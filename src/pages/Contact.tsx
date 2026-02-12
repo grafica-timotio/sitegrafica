@@ -6,7 +6,7 @@ const contactInfo = [
   { icon: MapPin, label: "Endereço", value: "Av. São Miguel, 646 - Boa Vista, Garanhuns - PE", color: "cyan" },
   { icon: Phone, label: "Telefone", value: "(87) 98817-5564 / (87) 98834-1771", color: "magenta" },
   { icon: Mail, label: "E-mail", value: "graficatimotio@outlook.com", color: "yellow" },
-  { icon: Clock, label: "Horário", value: "Seg - Sex: 8h às 18h", color: "cyan" },
+  { icon: Clock, label: "Horário", value: "Segunda - Sexta: 8h às 17h", color: "cyan" },
 ];
 
 const Contact = () => {

@@ -42,14 +42,21 @@ const About = () => {
               <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground mb-6">Nossa História</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  A Gráfica Timótio nasceu da paixão pela arte da impressão. Começamos como uma pequena gráfica de bairro e, com dedicação e compromisso com a qualidade, nos tornamos referência em impressão de papel, lona e adesivos na região de Garanhuns.
+                  Gráfica Timótio nasceu da tradição, da dedicação e do amor pela arte da impressão. Somos a terceira geração de profissionais do ramo, carregando uma história que começou com nossa avó, que ensinou à nossa mãe, Joselma, o valor do trabalho bem feito e o respeito por cada cliente atendido.
                 </p>
                 <p>
-                  Investimos constantemente em equipamentos modernos e na capacitação da nossa equipe para oferecer a você o melhor resultado possível. Cada projeto é tratado com atenção e cuidado, independente do tamanho.
+                  Em 2016, Márcio Timótio e Clara Timótio decidiram dar continuidade a esse legado familiar, transformando experiência e conhecimento em um novo projeto: a Gráfica Timótio. Ao lado dos irmãos, que também atuam no segmento gráfico, mantemos viva uma tradição construída com esforço, aprendizado e paixão pela impressão de qualidade.
                 </p>
                 <p>
-                  Nosso diferencial é o atendimento próximo e personalizado. Entendemos que cada cliente tem uma necessidade única, e trabalhamos para entregar exatamente o que você precisa, no prazo e com a qualidade que você merece.
+                  Iniciamos como uma pequena gráfica de bairro, mas com um propósito muito claro: nunca abrir mão da excelência. Acreditamos que cada material produzido carrega a imagem e a credibilidade de nossos clientes, por isso prezamos rigorosamente pela qualidade em cada detalhe — da criação à entrega final.
                 </p>
+                <p>
+                  Mais do que imprimir, buscamos entender a necessidade de cada cliente, oferecendo atendimento próximo, transparente e comprometido. Nosso crescimento na região de Garanhuns é resultado direto dessa filosofia: qualidade no serviço, responsabilidade nos prazos e respeito no atendimento.
+                </p>
+                <p>
+                  A Gráfica Timótio não é apenas uma empresa — é a continuidade de uma história construída por gerações que aprenderam que qualidade não é um diferencial, é um compromisso.
+                </p>
+
               </div>
             </motion.div>
           </div>
