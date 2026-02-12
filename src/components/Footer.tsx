@@ -68,7 +68,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2 text-sm text-primary-foreground/70">
                 <Clock className="w-4 h-4 text-accent shrink-0" />
-                <span>Segunda - Sexta: 8h às 17h</span>
+                <span>Segunda - Sexta: 8h às 18h</span>
               </div>
               <div className="flex items-center gap-3 mt-2">
                 <a href="https://www.instagram.com/graficatimotio/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-colors">
