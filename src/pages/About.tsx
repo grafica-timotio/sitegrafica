@@ -45,7 +45,7 @@ const About = () => {
                   Gráfica Timótio nasceu da tradição, da dedicação e do amor pela arte da impressão. Somos a terceira geração de profissionais do ramo, carregando uma história que começou com nossa avó, que ensinou à nossa mãe, Joselma, o valor do trabalho bem feito e o respeito por cada cliente atendido.
                 </p>
                 <p>
-                  Em 2016, Márcio Timótio e Clara Timótio decidiram dar continuidade a esse legado familiar, transformando experiência e conhecimento em um novo projeto: a Gráfica Timótio. Ao lado dos irmãos, que também atuam no segmento gráfico, mantemos viva uma tradição construída com esforço, aprendizado e paixão pela impressão de qualidade.
+                  Em 2018, Márcio Timótio e Clara Timótio decidiram dar continuidade a esse legado familiar, transformando experiência e conhecimento em um novo projeto: a Gráfica Timótio. Ao lado dos irmãos, que também atuam no segmento gráfico, mantemos viva uma tradição construída com esforço, aprendizado e paixão pela impressão de qualidade.
                 </p>
                 <p>
                   Iniciamos como uma pequena gráfica de bairro, mas com um propósito muito claro: nunca abrir mão da excelência. Acreditamos que cada material produzido carrega a imagem e a credibilidade de nossos clientes, por isso prezamos rigorosamente pela qualidade em cada detalhe — da criação à entrega final.
