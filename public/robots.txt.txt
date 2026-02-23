@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://graficatimotio.vercel.app/
+Sitemap: https://graficatimotio.vercel.app/sitemap.xml
